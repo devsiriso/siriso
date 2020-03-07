@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886c4f39-642d-4fa7-bc8b-0aa116697e6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Renogare-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Renogare-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Renogare-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Renogare-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Renogare-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/taxi-night.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/animations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/drawinganimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/scrollinganimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/typinganimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Web 1920 – 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bg-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/generator_config.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/renogare-regular-demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/renogare-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/renogare-regular-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/specimen_files/grid_12-825-55-15.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/specimen_files/specimen_stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/whatsapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/whatsapp.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/stylesheet.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="659">
-                  <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+                <state relative-caret-position="775">
+                  <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -171,11 +145,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="1" />
-    <option name="width" value="2565" />
-    <option name="height" value="1399" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2560" />
+    <option name="width" value="2560" />
+    <option name="height" value="1400" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -185,46 +158,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Siriso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Siriso" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Siriso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Siriso" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Siriso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Siriso" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Siriso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Siriso" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Siriso" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Siriso" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/siriso" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -290,6 +231,7 @@
       <workItem from="1582581148203" duration="1095000" />
       <workItem from="1582582679538" duration="1260000" />
       <workItem from="1582741654113" duration="45000" />
+      <workItem from="1583616898670" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="Inital commit">
       <created>1581654727152</created>
@@ -302,18 +244,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50973000" />
+    <option name="totallyTimeSpent" value="51018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="1" width="2565" height="1399" extended-state="0" />
+    <frame x="2560" y="0" width="2560" height="1400" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18084686" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18120539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.08306452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.08306452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -400,21 +343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#nav#0;n#div#5;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#6;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/transition.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -444,6 +372,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/taxi-night.jpg">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#nav#0;n#div#5;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#6;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
