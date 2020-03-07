@@ -1,4 +1,5 @@
 function fadeOut() {
+    console.log('fade out');
     var x = document.getElementById("title-container");
     var y = document.getElementById("portfolio-container");
 

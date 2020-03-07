@@ -40,40 +40,40 @@
 
     <div id="top-bar">
         <p id="logo-text">
-            <span class="">S</span>IRISO<span class="brand-red">.</span>
+            SIRISO<span class="brand-red">.</span>
+
+
         </p>
 
-        <span class="iconify brand-red" data-icon="fa-solid:grip-lines" data-inline="false" id="menu-icon"></span>
+        <div id="socials">
+            <a href="whatsapp://send?text=Hallo Sam!&phone=+31613545934">
+                <img src="assets/icons/whatsapp.svg" class="social-icon"/>
+            </a>
+            <a href="https://www.linkedin.com/in/sam-van-schaik-494326164/">
+                <img src="assets/icons/linkedin.svg" class="social-icon"/>
+            </a>
+            <a href="mailto:svschaik.main@gmail.com">
+                <img src="assets/icons/gmail.svg" class="social-icon"/>
+            </a>
+        </div>
     </div>
 
-    <div id="bottom-bar">
-        <nav class="navbar justify-content">
-            <p id="contact-text">
-                <span class="iconify " data-icon="ant-design:line-outlined" data-inline="false" id="contact-icon"></span>
-                contact
-            </p>
+    <nav class="navbar fixed-bottom justify-content align-content-center">
+        <div class="navbar_item_wrapper">
+            <p class="navbar_item" onclick="">Portfolio</p>
+        </div>
+        <div class="navbar_item_wrapper">
+            <p class="navbar_item" onclick="fadeOut()">Services</p>
+        </div>
+        <div class="navbar_item_wrapper">
+            <p class="navbar_item">About me</p>
+        </div>
+    </nav>
 
-            <div style="display:flex;">
-                <div class="navbar_item_wrapper">
-                    <p class="navbar_item" onclick="">Portfolio</p>
-                </div>
-                <div class="navbar_item_wrapper">
-                    <p class="navbar_item" onclick="fadeIn()">Services</p>
-                </div>
-                <div class="navbar_item_wrapper">
-                    <p class="navbar_item">About me</p>
-                </div>
-            </div>
-
-            <object data="assets/images/whatsapp.svg" type="image/svg+xml" >
-                <img src="assets/images/whatsapp.svg"  />
-            </object>
-        </nav>
-    </div>
 
     <div id="background-text-container" class="">
         <p id="background-text" class="brand-red">
-            S<span id="background-dot" class="brand-red" style="font-family">.</span>
+            S<span id="background-dot">.</span>
         </p>
     </div>
 
