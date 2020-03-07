@@ -7,54 +7,86 @@
     <meta name="author" content="Sam van Schaik">
     <meta name="description" content="Website">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Local styles-->
+    <link rel="stylesheet" type="text/css" href="assets/styles/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/animations.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--Animations-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/segment-js/1.1.3/segment.js"></script>-->
+    <!--<script src="js/segment.js"></script>-->
+    <!--<script src="js/d3-ease.v0.6.js"></script>-->
+    <!--<script src="js/letters.js"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/gh/akzhy/vara@master/src/vara.min.js" type="text/javascript"></script>-->
+    <script src="javascript/typinganimation.js"></script>
+
+
+    <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <!--Icons-->
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+
 </head>
 <body>
 <header class="row h-100">
-    <div id="header-top-container">
+    <div class="line" style="left:20%;"></div>
+    <div class="line" style="left:40%;"></div>
+    <div class="line" style="left:60%;"></div>
+    <div class="line" style="left:80%;"></div>
+
+    <div id="top-bar">
         <p id="logo-text">
-            SIRISO
+            <span class="">S</span>IRISO<span class="brand-red">.</span>
         </p>
 
-        <p id="logo-dot">
-            .
-        </p>
+        <span class="iconify brand-red" data-icon="fa-solid:grip-lines" data-inline="false" id="menu-icon"></span>
+    </div>
 
-        <span class="iconify" data-icon="fa-solid:grip-lines" data-inline="false" id="menu-icon"></span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div id="bottom-bar">
+        <nav class="navbar justify-content">
+            <p id="contact-text">
+                <span class="iconify " data-icon="ant-design:line-outlined" data-inline="false" id="contact-icon"></span>
+                contact
+            </p>
 
-        <object data="assets/whatsapp.svg" type="image/svg+xml">
-            <img src="assets/whatsapp.svg" />
-        </object>
+            <div style="display:flex;">
+                <div class="navbar_item_wrapper">
+                    <p class="navbar_item" onclick="">Portfolio</p>
+                </div>
+                <div class="navbar_item_wrapper">
+                    <p class="navbar_item" onclick="fadeIn()">Services</p>
+                </div>
+                <div class="navbar_item_wrapper">
+                    <p class="navbar_item">About me</p>
+                </div>
+            </div>
 
-        <p id="contact-text">
-            CONTACT
-            <span class="iconify" data-icon="ant-design:line-outlined" data-inline="false" id="contact-icon"></span>
+            <object data="assets/images/whatsapp.svg" type="image/svg+xml" >
+                <img src="assets/images/whatsapp.svg"  />
+            </object>
+        </nav>
+    </div>
+
+    <div id="background-text-container" class="">
+        <p id="background-text" class="brand-red">
+            S<span id="background-dot" class="brand-red" style="font-family">.</span>
         </p>
     </div>
 
-    <div id="background-text-container">
-        <p id="background-text">
-            S<span id="background-dot">.</span>
+    <div id="title-container">
+        <p id="title">
+            Lorem ipsum dolor <br>sit amet
         </p>
-    </div>
-    <div id="title-container" class="col-sm-12 my-auto">
-        <p id="header-title">
-            <span>
-                I am giga hyped about <br>everything.
-            </span>
-        </p>
-        <p id="header-sub-title">
-            <span>
-                I can help with all sorts of things baby, <br>check it out.
-            </span>
+
+        <p id="sub-title">
+            Consectetur adipiscing elit,<br>sed do eiusmod tempor incididunt.
         </p>
     </div>
 </header>
-
+<script src="javascript/transition.js"></script>
 </body>
 </html>
