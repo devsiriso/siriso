@@ -58,34 +58,50 @@
         </div>
     </div>
 
+   <div id="content-container">
+       <div id="main-container">
+           <div id="background-text-container" class="">
+               <p id="background-text" class="brand-red">
+                   S<span id="background-dot">.</span>
+               </p>
+           </div>
+
+           <div id="title-container">
+               <p id="title" class="text">
+                   This website is a <br> work in progress.
+               </p>
+
+               <p id="sub-title" class="subtext">
+                   Check back later.
+               </p>
+           </div>
+       </div>
+
+       <div id="portfolio-container">
+           <div id="portfolio-text" class="text">Portfolio</div>
+       </div>
+
+       <div id="services-container">
+           <div id="services-text" class="text">Services</div>
+       </div>
+
+       <div id="aboutme-container">
+           <div id="aboutme-text" class="text">About me</div>
+       </div>
+   </div>
+
     <nav class="navbar fixed-bottom justify-content align-content-center">
         <div class="navbar_item_wrapper">
-            <p class="navbar_item" onclick="">Portfolio</p>
+            <p class="navbar_item" onclick="changeContent('portfolio-container')">Portfolio</p>
         </div>
         <div class="navbar_item_wrapper">
-            <p class="navbar_item" onclick="fadeOut()">Services</p>
+            <p class="navbar_item" onclick="changeContent('services-container')">Services</p>
         </div>
         <div class="navbar_item_wrapper">
-            <p class="navbar_item">About me</p>
+            <p class="navbar_item" onclick="changeContent('aboutme-container')">About me</p>
         </div>
     </nav>
 
-
-    <div id="background-text-container" class="">
-        <p id="background-text" class="brand-red">
-            S<span id="background-dot">.</span>
-        </p>
-    </div>
-
-    <div id="title-container">
-        <p id="title">
-            This website is a <br> work in progress.
-        </p>
-
-        <p id="sub-title">
-            Check back later.
-        </p>
-    </div>
 </header>
 <script src="javascript/transition.js"></script>
 </body>

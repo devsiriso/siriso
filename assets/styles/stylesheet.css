@@ -83,6 +83,14 @@ header {
     font-size:24px;
 }
 
+#content-container {
+    opacity: 1;
+}
+
+#main-container {
+    opacity:1;
+    transition: 1s opacity;
+}
 
 #background-text-container {
     display:inline-block;
@@ -111,15 +119,15 @@ header {
     transform: translate(-50%, -50%);
 }
 
-#title {
+.text {
     font-family: Poppins, serif !important;
-    text-align:left;
+    text-align:center;
     color:white;
     font-size:48px;
     font-weight: bold;
 }
 
-#sub-title {
+.subtext {
     font-family: Poppins, serif !important;
     text-align:left;
     color:white;
@@ -128,27 +136,33 @@ header {
 }
 
 #portfolio-container {
-    display:none;
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: 1s opacity;
 }
 
-#portfolio {
-    font-family: Poppins, serif !important;
-    text-align:left;
-    color:white;
-    font-size:48px;
-    font-weight: bold;
+#services-container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: 1s opacity;
 }
 
-#sub-portfolio {
-    font-family: Poppins, serif !important;
-    text-align:left;
-    color:white;
-    font-size:24px;
-    font-weight: normal;
+#aboutme-container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+    transition: 1s opacity;
 }
 
 nav {
@@ -194,3 +208,4 @@ nav {
     -webkit-transition: width 1s;
     -o-transition: width 1s;
 }
+

@@ -34,7 +34,20 @@ function fadeIn() {
     }, 50);
 }
 
-function ff() {
-    $('title_container').fadeIn();
-}
+function changeContent(displayedContent) {
+    let mainContainer = document.getElementById('main-container');
+    let portfolioContainer = document.getElementById('portfolio-container');
+    let servicesContainer = document.getElementById('services-container');
+    let aboutmeContainer = document.getElementById('aboutme-container');
+
+    mainContainer.style.opacity = '0';
+    portfolioContainer.style.opacity = '0';
+    servicesContainer.style.opacity = '0';
+    aboutmeContainer.style.opacity = '0';
+
+
+   setTimeout(function () {
+       document.getElementById(displayedContent).style.opacity = '1';
+   }, 500)
+};
 
