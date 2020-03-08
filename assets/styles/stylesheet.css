@@ -30,9 +30,7 @@ p {
 
 header {
     text-align: center;
-    background-image: url(../images/background.svg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background: black url(../images/background.svg) no-repeat center;
     background-size: cover;
     overflow:hidden;
 }
