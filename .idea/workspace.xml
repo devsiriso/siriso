@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886c4f39-642d-4fa7-bc8b-0aa116697e6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/transition.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57155675">
+    <splitter split-orientation="horizontal" split-proportion="0.5406012">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+                <state relative-caret-position="815">
+                  <caret line="107" column="57" lean-forward="true" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,14 +38,14 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="vertical" split-proportion="0.64949256">
+        <splitter split-orientation="vertical" split-proportion="0.6323185">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/assets/styles/stylesheet.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="411">
-                      <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+                    <state relative-caret-position="145">
+                      <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
                     </state>
                   </provider>
                 </entry>
@@ -54,8 +57,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/javascript/transition.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="440">
-                      <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+                    <state relative-caret-position="120">
+                      <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
                     </state>
                   </provider>
                 </entry>
@@ -127,9 +130,9 @@
         <option value="$PROJECT_DIR$/javascript/scrollinganimation.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test.js" />
-        <option value="$PROJECT_DIR$/javascript/transition.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/styles/stylesheet.css" />
+        <option value="$PROJECT_DIR$/javascript/transition.js" />
       </list>
     </option>
   </component>
@@ -241,7 +244,7 @@
       <workItem from="1582582679538" duration="1260000" />
       <workItem from="1582741654113" duration="45000" />
       <workItem from="1583616898670" duration="2516000" />
-      <workItem from="1583622037477" duration="4781000" />
+      <workItem from="1583622037477" duration="6563000" />
     </task>
     <task id="LOCAL-00001" summary="Inital commit">
       <created>1581654727152</created>
@@ -254,7 +257,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58270000" />
+    <option name="totallyTimeSpent" value="60052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2560" y="0" width="2560" height="1440" extended-state="6" />
@@ -376,17 +379,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/transition.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="101" column="14" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+        <state relative-caret-position="815">
+          <caret line="107" column="57" lean-forward="true" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
           <folding>
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -398,8 +394,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/styles/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="145">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/transition.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
         </state>
       </provider>
     </entry>

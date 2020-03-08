@@ -150,7 +150,19 @@ header {
     transform: translate(-50%, -50%);
 
     opacity: 0;
+    transition: 1s opacity, .5s left;
+
+}
+
+#webdevelopment-container {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
     transition: 1s opacity;
+    display:none;
 }
 
 #aboutme-container {
